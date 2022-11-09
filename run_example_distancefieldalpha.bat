@@ -1,0 +1,1 @@
+start "" "C:\Program Files\Blender Foundation\Blender 3.3\blender.exe" --background bl_example_distancefieldalpha.blend --python example_distancefieldalpha.py --start-console
