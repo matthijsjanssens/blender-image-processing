@@ -1,0 +1,1 @@
+start "" "C:\Program Files\Blender Foundation\Blender 3.3\blender.exe" --background bl_example_channelpacking.blend --python example_channelpacking.py --start-console
