@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Blender backup files
+*.blend1
+
+# Texture output directory
+
+/Output
