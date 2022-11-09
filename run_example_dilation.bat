@@ -1,0 +1,1 @@
+start "" "C:\Program Files\Blender Foundation\Blender 3.3\blender.exe" --background bl_example_dilation.blend --python example_dilation.py --start-console
