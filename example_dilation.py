@@ -35,7 +35,7 @@ for image_name in os.listdir(IN_DIR):
         node_alpha.image.filepath = f'//{os.path.join(IN_DIR, tex_alpha)}'
         node_diffuse.image.filepath = f"//{os.path.join(IN_DIR, tex_diffuse)}"
 
-        # -- render MRO texture
+        # -- render dilated diffuse texture
         tex_output = image_name.replace('_A.jpg', '_D.tga')
         bpy.context.scene.render.filepath = f"//{os.path.join(OUT_DIR, tex_output)}"
         bpy.ops.render.render(write_still=True)
