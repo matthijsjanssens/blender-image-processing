@@ -132,5 +132,7 @@ dmypy.json
 *.blend1
 
 # Texture output directory
-
 /Output
+
+# Additional files
+log.txt
